@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <!-- box icon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- remix icons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- AOS animations link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="#" class="logo">
+            <img src="./logo-removebg-preview.png" alt="">
+        </a>
+        <ul class="navlist">
+            <li><a href="./About.html" target="_blank">About</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="right-content">
+            <a href="./from.html" target="_blank" class="nav-btn">Sign In</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h5 data-aos="fade-right" data-aos-duration="1400">#Coffee for hot days </h5>
+            <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="300">- Cold Brew</h1>
+            <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="200">Boost your productivity and build your mood with a glass of coffee in the morning. Coffee has a stimulating effect.</p>
+            <div class="main-hero" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="400">
+                <a href="#" class="btn">Order Now</a>
+                <a href="#" class="price">
+                    150..Rs | <span>Regular Price</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
+            <img src="./2-removebg-preview.png" class="h-img" alt="">
+        </div>
+    </section>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100093285117598" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="600"><i class="ri-facebook-fill"></i></a>
+        <a href="https://github.com/MA-MuhammadAdil" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="700"><i class="ri-github-fill"></i></a>
+        <a href="https://www.instagram.com/its_muhammadadil?" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="800"><i class="ri-instagram-line"></i></a>
+    </div>
+
+    <div class="scroll" data-aos="zoom-out-down" data-aos-duration="1400" data-aos-delay="550">
+        <a href="#">
+            <i class="ri-scroll-to-bottom-line"></i>
+            Scroll Down
+        </a>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1,
+        });
+
+         
+        var menu = document.querySelector('#menu-icon');
+        var navlist = document.querySelector('.navlist');
+
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open');
+        };
+      
+    </script>
+</body>
+</html>

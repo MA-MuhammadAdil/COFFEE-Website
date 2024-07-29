@@ -1,0 +1,142 @@
+body{
+    background-image: url('./3.jpeg');
+    color: white;
+}
+ .go-back button{
+    width: 10%;
+    padding: 10px;
+    margin-left: 50px ;
+    margin-top: 50px;
+    background:transparent;
+    border-radius: 20px;
+    
+ }
+
+ .go-back button a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+ } 
+
+ .go-back button:hover{
+    background-color: #ae8957;
+ }
+
+
+
+.main-h{
+    margin-top: -50px;
+}
+
+
+.main{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+.main h1{
+    color: #ae8957;
+    position: relative;
+    top: 50px; 
+    margin: auto;
+}
+
+.main2 img{
+    margin-top: -100px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px;
+    filter: drop-shadow(3px 3px 10px );
+    shape-outside: circle(50%);
+    float: right;
+}
+
+.main2 p{
+    font-size: 25px;
+    padding: 50px;
+    margin-left:50px;
+    margin-top: 130px;
+    text-shadow: 0px 0px 10px #ae8957 ;
+}
+
+.main3 h1{
+    text-align: center;
+} 
+.main3 ul >li{
+    border: 2px solid #ae8957;
+    padding: 10px;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 150px;
+    list-style: none;
+    background-color: #ae8957;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+ @media only screen and (max-width:767px) {
+    
+    
+.main2 img{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px;
+    filter: drop-shadow(3px 3px 10px );
+}
+
+.main2 p{
+    font-size: 25px;
+    padding: 0px;
+    margin-left:0px;
+    margin-top:150px;
+    text-shadow: 0px 0px 10px #ae8957 ;
+}
+
+.main3 ul >li{
+    border: 2px solid #ae8957;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: -30px;
+    list-style: none;
+    background-color: #ae8957;
+    text-align: center;
+
+}
+
+.go-back button{
+    width: 40%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+
+ }
+
+ .go-back button a{
+    outline: none   ;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+ }
+
+ .go-back button:hover{
+    background-color: #ae8957;
+ } 
+
+ }
+ 
